@@ -14,14 +14,22 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Text("Welcome to Test Reels"),
-            TextButton(
-              style: ButtonStyle(
-                foregroundColor: MaterialStateProperty.all<Color>(Colors.blue),
-              ),
+            ElevatedButton(
               onPressed: () {},
-              child: Text('Download Whatsapp Videos'),
-            )
+              child: const Text("Download Whatsapp Status"),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text("Download Instagram Reels"),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text("Download Facebook Shorts"),
+            ),
+            ElevatedButton(
+              onPressed: () {},
+              child: const Text("Download Twitter Short Videos"),
+            ),
           ],
           // children: [],
         ),
